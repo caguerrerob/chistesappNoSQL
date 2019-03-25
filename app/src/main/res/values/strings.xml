@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChistesApp</string>
+    <string name="presentacion">Sistema de Gestión de Chistes</string>
+    <string name="ingresarchiste">Ingrese un chiste</string>
+    <string name="boton1">Ingresar chiste</string>
+    <string name="boton2">Clasificar chiste</string>
+    <string name="boton3">Chistes recomendados</string>
+    <string name="chistes" />
+</resources>
