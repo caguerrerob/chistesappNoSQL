@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
 
     <TextView
         android:id="@+id/ingresar"
@@ -13,5 +15,18 @@
         android:text="@string/ingresarchiste"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/chistes" />
+
+    <Button
+        android:id="@+id/boton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton4" />
 
 </LinearLayout>
