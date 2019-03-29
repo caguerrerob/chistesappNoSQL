@@ -3,9 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
 
+
+    <Button
+        android:id="@+id/boton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/chistes" />
 
     <TextView
         android:id="@+id/ingresar"
@@ -16,17 +28,50 @@
         android:textColor="@color/colorPrimary"
         android:textSize="24sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/chistes" />
-
-    <Button
-        android:id="@+id/boton4"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/boton4" />
+        android:text="@string/txt_codigo" />
 
+    <EditText
+        android:id="@+id/txt_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_chiste" />
+
+    <EditText
+        android:id="@+id/txt_chiste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Registrar"
+        android:text="@string/boton7" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Modificar"
+        android:text="@string/boton10" />
+
+    <Button
+        android:id="@+id/butto11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Eliminar"
+        android:text="@string/boton11" />
 </LinearLayout>
