@@ -6,7 +6,19 @@
     tools:context=".ThirdActivity"
     android:orientation="vertical">
 
-<TextView
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton5" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/chistes" />
+
+        <TextView
     android:id="@+id/clasificar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -16,23 +28,47 @@
     android:textSize="24sp" />
 
 
-<RatingBar
-    android:id="@+id/ratingBar"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:numStars="5" />
 
-<ImageView
-    android:id="@+id/imageView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    app:srcCompat="@drawable/chistes" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_codigo" />
 
-<Button
-    android:id="@+id/boton5"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/boton5" />
+        <EditText
+            android:id="@+id/txt_codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_chiste" />
+
+        <EditText
+            android:id="@+id/txt_chiste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Buscar"
+            android:text="@string/boton8" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5" /> <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Registrar"
+        android:text="@string/boton9" /> </LinearLayout>
