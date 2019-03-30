@@ -6,6 +6,18 @@
     tools:context=".ThirdActivity"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/boton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton6" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/chistes" />
+
     <TextView
         android:id="@+id/clasificar"
         android:layout_width="match_parent"
@@ -15,16 +27,10 @@
         android:textColor="@color/colorPrimary"
         android:textSize="24sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/chistes" />
-
     <Button
-        android:id="@+id/boton6"
+        android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/boton6" />
+        android:text="@string/boton12" />
+
 </LinearLayout>
